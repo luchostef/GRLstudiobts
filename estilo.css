@@ -1,0 +1,163 @@
+body {
+    background-color: rgb(68, 68, 68);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: rgba(216, 185, 10, 0.753) !important;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.topBarI {
+    padding-right: 90px;
+}
+
+.lead {
+    color: rgb(224, 224, 224);
+    text-align: center;
+    padding-top: 90px;
+    font-weight: 500;
+}
+
+.topBar {
+    position: sticky;
+    z-index: 1;
+    top: 1px;
+    height: 150px;
+    background: rgb(129, 129, 129);
+    background: linear-gradient(261deg, rgba(129, 129, 129, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*-- B 
+div ul li {
+    padding: 45px;
+}
+--*/
+a:hover {
+    color: rgb(255, 230, 0) !important;
+    font-size: 19px;
+    transition: ease-in-out 0.2s;
+}
+
+.flex {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.pie {
+    background-color: rgba(109, 109, 109, 0.473);
+
+
+}
+
+section p {
+    font-weight: 200;
+    font-size: 25px;
+    color: white;
+    padding-top: 50px;
+}
+
+.nuestrosTrabajos {
+
+    font-weight: 600;
+
+}
+
+.portfolio {
+    padding-top: 5px;
+    transform: scale(0.6);
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    top: -300px;
+}
+
+
+.botonSlide {
+    transform: scale(1.1);
+}
+
+
+.flex2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nosotros {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 200px;
+    position: relative;
+    top: -400px;
+}
+
+.perfil {
+    transform: scale(0.8);
+}
+
+.nosotros .perfil p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 45px;
+}
+
+@media (max-width:1031px) {
+    .topBar {
+        height: 300px;
+    }
+
+    .portfolio {
+        padding-top: 5px;
+        transform: scale(0.7);
+        position: relative;
+        top: -100px;
+    }
+
+    .flex {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .lead {
+        padding-top: 20px;
+        font-weight: 300;
+
+
+    }
+
+    .logo {
+        transform: scale(1.2);
+        padding-top: 35px;
+        position: relative;
+        left: -60px;
+    }
+
+    .nuestrosTrabajos {
+        padding: 35px;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+
+    .nosotros {
+        flex-direction: column;
+        transform: scale(0.8);
+
+    }
+
+}
